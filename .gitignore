@@ -1,0 +1,24 @@
+# Credentials
+credentials.json
+
+# Environment
+myenv/
+.env
+
+# Data files containing PII/emails
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE/Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
