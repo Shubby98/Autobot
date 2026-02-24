@@ -9,7 +9,7 @@ from mcp.client.stdio import stdio_client
 # Configuration
 MCP_SERVER_COMMAND = "/Users/shubby/Documents/mcp_servers/mcpenv/bin/python3"
 MCP_SERVER_ARGS = ["-m", "apple_mail_mcp.server"]
-OUTPUT_CSV = "recent_emails.csv"
+OUTPUT_CSV = "data/recent_emails.csv"
 LOOKBACK_HOURS = 24
 
 def parse_date(date_str):
