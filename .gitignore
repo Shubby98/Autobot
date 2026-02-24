@@ -3,6 +3,8 @@ credentials.json
 
 # Environment
 myenv/
+.agent/
+.agents/
 .env
 
 # Data files containing PII/emails
@@ -19,6 +21,8 @@ __pycache__/
 .idea/
 *.swp
 .DS_Store
+.http
+skills-lock.json
 
 # Logs
 *.log

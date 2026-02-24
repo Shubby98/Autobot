@@ -11,3 +11,13 @@ content-type: application/json
     "max_tokens": 100
 }
 
+
+
+POST https://api.hunter.io/v2/discover?api_key=53d22452a489e3bf53f28f08e9db3a37024e7e57
+content-type: application/json
+
+{
+  "organization": {
+    "domain": ["google.com"]
+  }
+}
